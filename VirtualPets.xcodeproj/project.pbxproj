@@ -1,0 +1,528 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		22F14B7C1E4971240019E428 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22F14B7B1E4971240019E428 /* AppDelegate.swift */; };
+		22F14B7E1E4971240019E428 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22F14B7D1E4971240019E428 /* ViewController.swift */; };
+		22F14B811E4971240019E428 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 22F14B7F1E4971240019E428 /* Main.storyboard */; };
+		22F14B831E4971240019E428 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 22F14B821E4971240019E428 /* Assets.xcassets */; };
+		22F14B861E4971240019E428 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 22F14B841E4971240019E428 /* LaunchScreen.storyboard */; };
+		22F14B911E4971240019E428 /* VirtualPetsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22F14B901E4971240019E428 /* VirtualPetsTests.swift */; };
+		22F14B9C1E4971240019E428 /* VirtualPetsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22F14B9B1E4971240019E428 /* VirtualPetsUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		22F14B8D1E4971240019E428 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 22F14B701E4971240019E428 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 22F14B771E4971240019E428;
+			remoteInfo = VirtualPets;
+		};
+		22F14B981E4971240019E428 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 22F14B701E4971240019E428 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 22F14B771E4971240019E428;
+			remoteInfo = VirtualPets;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		22F14B781E4971240019E428 /* VirtualPets.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VirtualPets.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		22F14B7B1E4971240019E428 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		22F14B7D1E4971240019E428 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		22F14B801E4971240019E428 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		22F14B821E4971240019E428 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		22F14B851E4971240019E428 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		22F14B871E4971240019E428 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		22F14B8C1E4971240019E428 /* VirtualPetsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = VirtualPetsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		22F14B901E4971240019E428 /* VirtualPetsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VirtualPetsTests.swift; sourceTree = "<group>"; };
+		22F14B921E4971240019E428 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		22F14B971E4971240019E428 /* VirtualPetsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = VirtualPetsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		22F14B9B1E4971240019E428 /* VirtualPetsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VirtualPetsUITests.swift; sourceTree = "<group>"; };
+		22F14B9D1E4971240019E428 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		22F14B751E4971240019E428 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		22F14B891E4971240019E428 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		22F14B941E4971240019E428 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		22F14B6F1E4971240019E428 = {
+			isa = PBXGroup;
+			children = (
+				22F14B7A1E4971240019E428 /* VirtualPets */,
+				22F14B8F1E4971240019E428 /* VirtualPetsTests */,
+				22F14B9A1E4971240019E428 /* VirtualPetsUITests */,
+				22F14B791E4971240019E428 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		22F14B791E4971240019E428 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				22F14B781E4971240019E428 /* VirtualPets.app */,
+				22F14B8C1E4971240019E428 /* VirtualPetsTests.xctest */,
+				22F14B971E4971240019E428 /* VirtualPetsUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		22F14B7A1E4971240019E428 /* VirtualPets */ = {
+			isa = PBXGroup;
+			children = (
+				22F14B7B1E4971240019E428 /* AppDelegate.swift */,
+				22F14B7D1E4971240019E428 /* ViewController.swift */,
+				22F14B7F1E4971240019E428 /* Main.storyboard */,
+				22F14B821E4971240019E428 /* Assets.xcassets */,
+				22F14B841E4971240019E428 /* LaunchScreen.storyboard */,
+				22F14B871E4971240019E428 /* Info.plist */,
+			);
+			path = VirtualPets;
+			sourceTree = "<group>";
+		};
+		22F14B8F1E4971240019E428 /* VirtualPetsTests */ = {
+			isa = PBXGroup;
+			children = (
+				22F14B901E4971240019E428 /* VirtualPetsTests.swift */,
+				22F14B921E4971240019E428 /* Info.plist */,
+			);
+			path = VirtualPetsTests;
+			sourceTree = "<group>";
+		};
+		22F14B9A1E4971240019E428 /* VirtualPetsUITests */ = {
+			isa = PBXGroup;
+			children = (
+				22F14B9B1E4971240019E428 /* VirtualPetsUITests.swift */,
+				22F14B9D1E4971240019E428 /* Info.plist */,
+			);
+			path = VirtualPetsUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		22F14B771E4971240019E428 /* VirtualPets */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 22F14BA01E4971240019E428 /* Build configuration list for PBXNativeTarget "VirtualPets" */;
+			buildPhases = (
+				22F14B741E4971240019E428 /* Sources */,
+				22F14B751E4971240019E428 /* Frameworks */,
+				22F14B761E4971240019E428 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = VirtualPets;
+			productName = VirtualPets;
+			productReference = 22F14B781E4971240019E428 /* VirtualPets.app */;
+			productType = "com.apple.product-type.application";
+		};
+		22F14B8B1E4971240019E428 /* VirtualPetsTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 22F14BA31E4971240019E428 /* Build configuration list for PBXNativeTarget "VirtualPetsTests" */;
+			buildPhases = (
+				22F14B881E4971240019E428 /* Sources */,
+				22F14B891E4971240019E428 /* Frameworks */,
+				22F14B8A1E4971240019E428 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				22F14B8E1E4971240019E428 /* PBXTargetDependency */,
+			);
+			name = VirtualPetsTests;
+			productName = VirtualPetsTests;
+			productReference = 22F14B8C1E4971240019E428 /* VirtualPetsTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		22F14B961E4971240019E428 /* VirtualPetsUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 22F14BA61E4971240019E428 /* Build configuration list for PBXNativeTarget "VirtualPetsUITests" */;
+			buildPhases = (
+				22F14B931E4971240019E428 /* Sources */,
+				22F14B941E4971240019E428 /* Frameworks */,
+				22F14B951E4971240019E428 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				22F14B991E4971240019E428 /* PBXTargetDependency */,
+			);
+			name = VirtualPetsUITests;
+			productName = VirtualPetsUITests;
+			productReference = 22F14B971E4971240019E428 /* VirtualPetsUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		22F14B701E4971240019E428 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = TIM;
+				TargetAttributes = {
+					22F14B771E4971240019E428 = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+					};
+					22F14B8B1E4971240019E428 = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 22F14B771E4971240019E428;
+					};
+					22F14B961E4971240019E428 = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 22F14B771E4971240019E428;
+					};
+				};
+			};
+			buildConfigurationList = 22F14B731E4971240019E428 /* Build configuration list for PBXProject "VirtualPets" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 22F14B6F1E4971240019E428;
+			productRefGroup = 22F14B791E4971240019E428 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				22F14B771E4971240019E428 /* VirtualPets */,
+				22F14B8B1E4971240019E428 /* VirtualPetsTests */,
+				22F14B961E4971240019E428 /* VirtualPetsUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		22F14B761E4971240019E428 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				22F14B861E4971240019E428 /* LaunchScreen.storyboard in Resources */,
+				22F14B831E4971240019E428 /* Assets.xcassets in Resources */,
+				22F14B811E4971240019E428 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		22F14B8A1E4971240019E428 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		22F14B951E4971240019E428 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		22F14B741E4971240019E428 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				22F14B7E1E4971240019E428 /* ViewController.swift in Sources */,
+				22F14B7C1E4971240019E428 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		22F14B881E4971240019E428 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				22F14B911E4971240019E428 /* VirtualPetsTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		22F14B931E4971240019E428 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				22F14B9C1E4971240019E428 /* VirtualPetsUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		22F14B8E1E4971240019E428 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 22F14B771E4971240019E428 /* VirtualPets */;
+			targetProxy = 22F14B8D1E4971240019E428 /* PBXContainerItemProxy */;
+		};
+		22F14B991E4971240019E428 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 22F14B771E4971240019E428 /* VirtualPets */;
+			targetProxy = 22F14B981E4971240019E428 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		22F14B7F1E4971240019E428 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				22F14B801E4971240019E428 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		22F14B841E4971240019E428 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				22F14B851E4971240019E428 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		22F14B9E1E4971240019E428 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		22F14B9F1E4971240019E428 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		22F14BA11E4971240019E428 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = VirtualPets/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = DQL.VirtualPets;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		22F14BA21E4971240019E428 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = VirtualPets/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = DQL.VirtualPets;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		22F14BA41E4971240019E428 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = VirtualPetsTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = DQL.VirtualPetsTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/VirtualPets.app/VirtualPets";
+			};
+			name = Debug;
+		};
+		22F14BA51E4971240019E428 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = VirtualPetsTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = DQL.VirtualPetsTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/VirtualPets.app/VirtualPets";
+			};
+			name = Release;
+		};
+		22F14BA71E4971240019E428 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = VirtualPetsUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = DQL.VirtualPetsUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = VirtualPets;
+			};
+			name = Debug;
+		};
+		22F14BA81E4971240019E428 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = VirtualPetsUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = DQL.VirtualPetsUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = VirtualPets;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		22F14B731E4971240019E428 /* Build configuration list for PBXProject "VirtualPets" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				22F14B9E1E4971240019E428 /* Debug */,
+				22F14B9F1E4971240019E428 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		22F14BA01E4971240019E428 /* Build configuration list for PBXNativeTarget "VirtualPets" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				22F14BA11E4971240019E428 /* Debug */,
+				22F14BA21E4971240019E428 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		22F14BA31E4971240019E428 /* Build configuration list for PBXNativeTarget "VirtualPetsTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				22F14BA41E4971240019E428 /* Debug */,
+				22F14BA51E4971240019E428 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		22F14BA61E4971240019E428 /* Build configuration list for PBXNativeTarget "VirtualPetsUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				22F14BA71E4971240019E428 /* Debug */,
+				22F14BA81E4971240019E428 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 22F14B701E4971240019E428 /* Project object */;
+}
